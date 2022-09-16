@@ -12,8 +12,13 @@
 @function em($px, $current: 16) {
   @return math.div($px, $current) + em;
 }
+
+html,
 body {
   background-color: #fff;
+}
+
+body {
   font-size: rem(16);
   line-height: 1.5;
   font-family: Roboto;
