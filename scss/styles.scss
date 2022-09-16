@@ -13,6 +13,7 @@
   @return math.div($px, $current) + em;
 }
 body {
+  background-color: #fff;
   font-size: rem(16);
   line-height: 1.5;
   font-family: Roboto;
